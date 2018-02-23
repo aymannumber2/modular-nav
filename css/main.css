@@ -25,11 +25,11 @@ h2 {
 
 a {
   padding: .5em;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: #0074d9;
   color: white;
   padding: .5em;
-  text-decoration: none;
 }
