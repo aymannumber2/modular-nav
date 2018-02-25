@@ -9,6 +9,17 @@ html {
   font-family: sans-serif;
 }
 
+a {
+  padding: .5em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
+  padding: .5em;
+}
+
 body {
   margin: 0;
 }
