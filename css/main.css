@@ -4,30 +4,48 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
-  text-align: center;
-  font-family: sans-serif;
+li {
+  display: inline-block;
+  padding: 0.5em
 }
 
-a {
-  padding: .5em;
-  text-decoration: none;
+li:hover {
+  padding: 0.5em;
+  background-color: #0074d9;
 }
 
 a:hover {
   color: #fff;
-  background-color: #0074d9;
-  padding: .5em;
-}
-
-h1 {
-  margin-top: 0;
 }
 
 body {
   margin: 0;
+  background-color: #e2e2e2;
+  font-family: sans-serif;
 }
 
-div {
-  background-color: #e2e2e2;
+@media only screen and (min-width: 20em) {
+  .logo {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  .links {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .logo {
+    text-align: left;
+  }
+
+  .links {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
 }
