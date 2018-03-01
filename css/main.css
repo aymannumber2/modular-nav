@@ -14,11 +14,11 @@ html {
 
 li {
   display: inline-block;
-  padding: 0.5em
+  padding: .5em;
 }
 
 li:hover {
-  padding: 0.5em;
+  padding: .5em;
   background-color: #0074d9;
 }
 
@@ -36,18 +36,23 @@ body {
 }
 
 @media only screen and (min-width: 20em) {
+
   .logo {
     text-align: center;
   }
+
 }
 
 @media only screen and (min-width: 25em) {
+
   .links {
     text-align: center;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
+
   .logo {
     text-align: left;
   }
@@ -55,8 +60,5 @@ body {
   .links {
     text-align: right;
   }
-}
-
-@media only screen and (min-width: 60em) {
 
 }
