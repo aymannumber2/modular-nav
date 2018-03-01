@@ -4,6 +4,14 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+a {
+  text-decoration: none;
+}
+
+html {
+  text-decoration: none;
+}
+
 li {
   display: inline-block;
   padding: 0.5em
@@ -14,13 +22,16 @@ li:hover {
   background-color: #0074d9;
 }
 
+div {
+  background-color: #e2e2e2;
+}
+
 a:hover {
   color: #fff;
 }
 
 body {
   margin: 0;
-  background-color: #e2e2e2;
   font-family: sans-serif;
 }
 
